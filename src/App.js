@@ -6,6 +6,28 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
+      <nav className="navbar navbar-dark bg-dark navbar-expand-sm">
+  <a className="navbar-brand" href="#">
+    
+    Gadz
+  </a>
+  <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-list-2" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span className="navbar-toggler-icon"></span>
+  </button>
+  <div className="collapse navbar-collapse" id="navbar-list-2">
+    <ul className="navbar-nav">
+      <li className="nav-item active">
+        <a className="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li className="nav-item">
+       <a className="nav-link" href="#">Mobiles📱</a>
+      </li>
+      <li className="nav-item">
+        <a className="nav-link" href="./laptop.js">Laptop💻</a>
+      </li>
+    </ul>
+  </div>
+</nav>
         <hr></hr>
       <p class="line-1 anim-typewriter">Gadz</p>
         <center><h2 style={{fontSize:25}}>Gadget Reviews at Your Fingertips</h2></center>
@@ -45,7 +67,8 @@ function App() {
     </a>
   </div>
 </div>
-
+<br></br>
+<p></p>
       </header>
       
     </div>
