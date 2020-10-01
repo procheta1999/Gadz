@@ -1,7 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
 
 .bg-custom-1 {
-  background-color: #85144b;
+  background-color: #85145c;
 }
 
 .bg-custom-2 {
@@ -47,7 +47,7 @@ img{
   height:100%;
 }
 .App-logo {
-  height: 40vmin;
+  height: 50vmin;
   pointer-events: none;
 }
 
